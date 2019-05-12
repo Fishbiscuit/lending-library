@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 	<html lang="en">
-		<title>Tool Lending</title>
+		<title>DiscoverSUTD Session Signup</title>
 		<meta charset='utf-8'>
 		<script type="text/javascript" src="js/ICanHaz.js"></script>
 		<script type="text/javascript" src='js/jquery.js'></script>
@@ -12,15 +12,18 @@
 	</head>
 	<body>
 		<header class="container">
-			<h1>Tool Lending</h1>
+			<h1>DiscoverSUTD Session Signup</h1>
 			<ul class="nav">
-				<li><strong>LENDING IS LOVELY</strong></li>
-				<li>AN OPEN SOURCE, EASY TO DUPLICATE PROJECT</li>
-				<li><a href="#info">HERE'S HOW</a></li>
+				<li>
+					<strong>One-stop signup for all 28 sessions planned for you!</strong>
+					<br>"Sign up" brings you to the event registration form
+					<br>"Session details" gives you important details!
+					<br>If you have any questions, drop the organisers an e-mail!
+				</li>
 			</ul>
 		</header>
 		<div id="filters" class="container">
-			<input id="toolSearch" type="search" placeholder="hammer.."></input>
+			<input id="toolSearch" type="search" placeholder="what you are looking for?"></input>
 			<span class="clear sml-button">Clear</span>
 			<span id="showAvailable" class="sml-button">Show Available</span>
 		</div>
@@ -58,13 +61,13 @@
 				{{#full}} <span class="tool-box-borrowed">FULL</span>{{/full}}
 				{{^full}}<a href="{{signupform}}" target="_blank"><span class="tool-box-borrow btn">SIGN UP</span></a>{{/full}}
 				<ul>
+					<li><a href="{{page}}" target="_blank"><small>Session details</small></a></li>
 					<li><small>ORGANISED BY: </small></li>
 					<li>{{organiser}}</li>
-					<li><small>ORGANISED BY: </small></li>
+					<li><small>Details: </small></li>
 					<li>{{dateandtime}}</li>
 					<li><small>VENUE: </small></li>
 					<li>{{venue}}</li>
-					<li><a href="{{page}}" target="_blank"><small>Session Page</small></a></li>
 					<li><small>CAPACITY: </small>{{capacity}}</li>
 					<li><small>Drop a query <a href="mailto:{{contact}}?subject={{session}} query">here</a></small></li>
 				</ul>

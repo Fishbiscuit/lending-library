@@ -14,7 +14,7 @@ h5 {font-weight: lighter; color: #0087ff; text-transform: uppercase;}
 
 #info a img {border: 0; text-decoration: none;}
 
-ul.nav {list-style: none; margin: 0px; padding: 0px; color: #0087ff;}
+ul.nav {list-style: none; margin: 0px; padding: 0px; color: #1100ff;}
 ul.nav li {display: inline; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; padding-right: 4px;}
 ul.nav a {color: #0087ff; border-bottom: 1px dotted #0087ff;}
 ul.nav a:hover {color: #55b6ff; border-color: #55b6ff;}
@@ -51,6 +51,7 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
 .tool-box.sports-available {background: #e56c1b; color: #fff;}
 .tool-box.maker-available {background: #159049; color: #fff;}
 .tool-box.pillar-available {background: #c31576; color: #fff;}
+.tool-box.demo-available {background: #0087ff; color: #fff;}
 
 .tool-box.available a {border-color: #fff;}
 .tool-box:nth-child(1) {margin-top: 0;}
