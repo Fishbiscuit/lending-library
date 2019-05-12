@@ -47,9 +47,9 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
    -mox-box-sizing:border-box; -webkit-column-break-inside:avoid; -moz-column-break-inside:avoid;
    display: table; width: 100%;}
 .tool-box a {border-color: #9B9A9A;}
-.tool-box.artsavailable {background: #ff0000; color: #ff0000;}
-.tool-box.sportsavailable {background: #0087ff; color: #0087ff;}
-.tool-box.makeravailable {background: #1eff00; color: #1eff00;}
+.tool-box.artsavailable {background: #ff0000; color: #ffffff;}
+.tool-box.sportsavailable {background: #0087ff; color: #ffffff;}
+.tool-box.makeravailable {background: #1eff00; color: #ffffff;}
 .tool-box.available a {border-color: #fff;}
 .tool-box:nth-child(1) {margin-top: 0;}
 .tool-box-tool { display: block; font-size: 26px; padding: 10px 0; text-align: center; width: 100%;
