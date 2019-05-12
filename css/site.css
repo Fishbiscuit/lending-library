@@ -46,11 +46,11 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
 .tool-box { background: #E0E0DF; color: #5A5A5A; padding: 12px; margin-bottom: 16px; box-sizing: border-box;
    -mox-box-sizing:border-box; -webkit-column-break-inside:avoid; -moz-column-break-inside:avoid;
    display: table; width: 100%;}
-.tool-box a {border-color: #9B9A9A;}
-.tool-box.arts-available {background: #0087ff; color: #fff;}
-.tool-box.sports-available {background: #ff0000; color: #fff;}
-.tool-box.maker-available {background: #00ff22; color: #fff;}
-.tool-box.pillar-available {background: #f700ff; color: #fff;}
+.tool-box a {border-color: rgb(0, 0, 0);}
+.tool-box.arts-available {background: #7e1bc3; color: #fff;}
+.tool-box.sports-available {background: #e56c1b; color: #fff;}
+.tool-box.maker-available {background: #159049; color: #fff;}
+.tool-box.pillar-available {background: #c31576; color: #fff;}
 
 .tool-box.available a {border-color: #fff;}
 .tool-box:nth-child(1) {margin-top: 0;}

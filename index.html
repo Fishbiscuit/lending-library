@@ -53,18 +53,18 @@
 		<script id="tools" type="text/html">
 		{{#rows}}
 		<div id="{{rowNumber}}" class="tool-box {{#full}}not-{{/full}}{{type}}-available">
-			<span class="tool-box-tool">{{session}}</span>
+			<span class="tool-box-tool">{{session}} <br>by {{organiser}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
 				{{#full}} <span class="tool-box-borrowed">FULL</span>{{/full}}
 				{{^full}}<a href="{{signupform}}" target="_blank"><span class="tool-box-borrow btn">SIGN UP</span></a>{{/full}}
 				<ul>
-					<li><small>DETAILS : </small></li>
-					<li><a href="mailto:{{owneremail}}">{{fifth row}}</a></li>
-					<li>{{street}}, {{city}}, {{state}}</li>
-					<li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li>
-					{{#tooldetails}}
-					<li><small>NOTES : </small>{{tooldetails}}</li>
-					{{/tooldetails}}
+					<li><small>ORGANISED BY: </small></li>
+					<li>{{organiser}}</li>
+					<li><small>VENUE: </small></li>
+					<li>{{venue}}</li>
+					<li><a href="{{page}}" target="_blank"><small>Session Page</small></a></li>
+					<li><small>CAPACITY: </small>{{capacity}}</li>
+					<li><small>Drop a query <a href="mailto:{{contact}}?subject={{session}} query">here</a></small></li>
 				</ul>
 			</div>
 		</div>
