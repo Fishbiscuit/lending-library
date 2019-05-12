@@ -43,7 +43,7 @@
 
 		<script id="tools" type="text/html">
 		{{#rows}}
-		<div id="{{rowNumber}}" class="tool-box {{checkedout}}available">
+		<div id="{{rowNumber}}" class="tool-box {{type}}available">
 			<span class="tool-box-tool">{{session}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
 				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
