@@ -55,11 +55,11 @@
 		<div id="{{rowNumber}}" class="tool-box {{#full}}not-{{/full}}{{type}}-available">
 			<span class="tool-box-tool">{{session}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
-				{{#full}} <span class="tool-box-borrowed">ON LOAN</span>{{/full}}
-				{{^full}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/full}}
+				{{#full}} <span class="tool-box-borrowed">FULL</span>{{/full}}
+				{{^full}}<a href="{{signupform}}" target="_blank"><span class="tool-box-borrow btn">SIGN UP</span></a>{{/full}}
 				<ul>
-					<li><small>WHO / WHERE : </small></li>
-					<li><a href="mailto:{{owneremail}}">{{owner}}</a></li>
+					<li><small>DETAILS : </small></li>
+					<li><a href="mailto:{{owneremail}}">{{fifth row}}</a></li>
 					<li>{{street}}, {{city}}, {{state}}</li>
 					<li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li>
 					{{#tooldetails}}
